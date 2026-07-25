@@ -177,6 +177,8 @@ export default function Contact() {
             name="phone_number"
             placeholder="Nomor Telepon"
             required
+            pattern="\+?[0-9\s-]{8,16}"
+            title="Masukkan nomor telepon yang valid (8-16 digit, boleh diawali +)"
             style={inputStyle}
           />
           <textarea

@@ -25,7 +25,7 @@ export default function Navbar() {
         left: 0,
         right: 0,
         zIndex: 50,
-        padding: '16px 20px 0',
+        padding: '20px 24px 0',
       }}
     >
       <div
@@ -51,7 +51,7 @@ export default function Navbar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            height: 72,
+            height: 60,
           }}
         >
           <a href="#" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
